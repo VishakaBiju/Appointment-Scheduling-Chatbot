@@ -1,0 +1,23 @@
+Google Sheet Database Information
+
+This project uses Google Sheets as a lightweight database to store appointment records.
+
+Sheet Name: doctors_database
+Tab: slot (or appointments)
+
+Columns:
+1. Doctor
+2. Date
+3. Time
+4. Phone
+5. Status (Booked / Cancelled)
+
+Usage:
+- When a user books or cancels an appointment, the chatbot updates this sheet.
+- Old appointments (past dates) are automatically removed using an Apps Script that runs daily.
+- The sheet acts as a persistent backend storage for all appointment-related data.
+
+Integration Steps:
+- The Flask backend uses the Google Sheets API to read/write appointment details.
+- The sheet link can be made viewable to testers if needed (without editing rights).
+
