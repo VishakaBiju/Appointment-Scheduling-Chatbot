@@ -81,7 +81,7 @@ You can include screenshots of:
 
 ---
 
-#Author
+#Author:
 Vishaka Biju  
 
 
